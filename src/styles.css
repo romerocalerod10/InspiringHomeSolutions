@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Helvetica - No necesitas importarlo desde Google Fonts, ya que es una fuente comúnmente disponible en sistemas operativos y navegadores. */
+
+/* Arial */
+@import url('https://fonts.googleapis.com/css2?family=Arial&display=swap');
+
+
+/*html, body { height: 100%;}*/
+body { font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif; }
+
+
+.h1-custom-size-1 { font-size: 3rem; }
+.h1-custom-size-2 { font-size: 2.5rem; }
+.h1-custom-size-3 { font-size: 2rem; }
+.h1-custom-size-4 { font-size: 1.5rem; }
+
+.h2-custom-size-1 { font-size: 2.5rem; }
+.h2-custom-size-2 { font-size: 2rem; }
+.h2-custom-size-3 { font-size: 1.5rem; }
+.h2-custom-size-4 { font-size: 1.25rem; }
+
+.h3-custom-size-1 { font-size: 1.5rem; }
+.h3-custom-size-2 { font-size: 1.25rem; }
+.h3-custom-size-3 { font-size: 1rem; }
+.h3-custom-size-4 { font-size: 0.75rem; }
+
+.h4-custom-size-1 { font-size: 1.5rem; }
+.h4-custom-size-2 { font-size: 1.25rem; }

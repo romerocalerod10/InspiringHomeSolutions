@@ -1,0 +1,31 @@
+.silla-salvaescaleras-flow-x {
+  margin-top: 125px;
+  background-size: 100% 100%; /* Cambiado de 'cover' a '100% 100%' */
+  min-height: 50vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+}
+
+.silla-salvaescaleras-doble-rail {
+  background-color: #f3f3f3;
+  background-size: 100% 100%; /* Cambiado de 'cover' a '100% 100%' */
+  min-height: 50vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+}
+
+.silla-salvaescaleras-homeglide {
+  background-size: 100% 100%; /* Cambiado de 'cover' a '100% 100%' */
+  min-height: 50vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+}

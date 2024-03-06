@@ -1,0 +1,36 @@
+.opcion-menu {
+  color: #fff;
+  border-color: #fff;
+  margin-right: 20px;
+}
+
+.opcion-menu:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fondo-navbar {
+  display: flex;
+  width: 100%;
+}
+
+.fondo-navbar::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+.dropdown-menu{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3) 100%);
+  color: white !important;
+}
+
+.dropdown-item:hover{
+  background-color: transparent !important;
+  font-weight: bold;
+}

@@ -1,0 +1,61 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="card shadow p-4" style="max-width: 560px">
+
+      <div class="text-center">
+        <h1 class="h1-custom-size-4">Contacte con nosotros</h1>
+      </div>
+
+      <form (ngSubmit)="submitForm(formulario)" #formulario="ngForm">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Nombre" id="nombre" name="nombre" ngModel required>
+        </div>
+
+        <div class="form-group my-3">
+          <input type="email" class="form-control" placeholder="Email" id="email" name="email" ngModel required>
+        </div>
+
+        <div class="form-group">
+          <input type="tel" class="form-control" placeholder="Teléfono" id="telefono" name="telefono" ngModel>
+        </div>
+
+        <div class="form-group my-3">
+          <input type="text" class="form-control" placeholder="Provincia" id="provincia" name="provincia" ngModel>
+        </div>
+
+        <div class="form-group mb-3">
+          <select id="tipoProducto" class="form-control" name="tipoProducto" [(ngModel)]="tipoProductoSeleccionado">
+            <option value="NINGUNO">Seleccione el producto de interés</option>
+            <option value="Silla Salvaescaleras FLOW X">Silla Salvaescaleras FLOW X</option>
+            <option value="Silla Salvaescaleras CURVA DOBLE RAÍL">Silla Salvaescaleras CURVA DOBLE RAÍL</option>
+            <option value="Silla Salvaescaleras HOMEGLIDE">Silla Salvaescaleras HOMEGLIDE</option>
+            <option value="Silla Salvaescaleras RECTA">Silla Salvaescaleras RECTA</option>
+            <option value="Plataforma RECTA">Plataforma RECTA</option>
+            <option value="Plataform SUPRA CURVA">Plataform SUPRA CURVA</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <textarea class="form-control" placeholder="Mensaje" id="mensaje" name="mensaje" ngModel></textarea>
+        </div>
+
+        <div class="mt-2">
+          <p style="text-align: justify; font-size: 10px">
+            La información proporcionada será incorporada a un archivo bajo la responsabilidad de Inspiring Home Solutions. Esta información se utilizará exclusivamente para gestionar tus datos y atender tu solicitud, siempre en conformidad con el Reglamento (UE) 2016/679 (RGPD), la Ley Orgánica 15/1999 (LOPD) y el Real Decreto 1720/2007, el cual desarrolla la LOPD en relación con la protección de datos. Tus datos no serán compartidos con terceros, a menos que exista una obligación legal, y se conservarán mientras no solicites su eliminación. En cualquier momento, tienes el derecho de ejercer tus derechos de acceso, rectificación, portabilidad y oposición, o en su caso, solicitar la limitación y/o cancelación del tratamiento, notificándolo a info@inspiringhomesolutions.com.
+          </p>
+        </div>
+
+        <div class="form-group text-center my-3">
+          <label>
+            <input type="checkbox" name="politicaPrivacidad" ngModel required>
+            He leído y acepto la <a href="/politica-privacidad" target="_blank">política de privacidad</a>
+          </label>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-dark" style="width: 250px" type="submit" [disabled]="!formulario.valid">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+

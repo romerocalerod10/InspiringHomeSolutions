@@ -1,0 +1,31 @@
+.plataforma-supra-recta {
+  margin-top: 125px;
+  background-size: 100% 100%; /* Cambiado de 'cover' a '100% 100%' */
+  min-height: 50vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+}
+
+.plataforma-recta {
+  background-color: #f3f3f3;
+  background-size: 100% 100%; /* Cambiado de 'cover' a '100% 100%' */
+  min-height: 50vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+}
+
+.plataforma-supra-curva {
+  background-size: 100% 100%; /* Cambiado de 'cover' a '100% 100%' */
+  min-height: 50vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+}

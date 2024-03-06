@@ -1,0 +1,23 @@
+<!-- app.component.html -->
+
+<div class="container">
+    <div class="row">
+        <div class="col position-relative">
+            <div class="control-prev" (click)="prevSlide()">
+                <img src="assets/img/flecha-izq.png" width="40px">
+            </div>
+            <ngb-carousel #carousel [interval]="3000" [wrap]="true" [pauseOnHover]="true" [showNavigationArrows]="false">
+                <ng-template ngbSlide *ngFor="let producto of productos">
+                    <div class="slide-container">
+                        <img style="border-radius: 5px" src="{{ producto.imageUrl }}" alt="{{ producto.name }}"
+                             class="img-fluid">
+                        <h1 class="h1-custom-size-4">{{ producto.name }}</h1>
+                    </div>
+                </ng-template>
+            </ngb-carousel>
+            <div class="control-next" (click)="nextSlide()">
+                <img src="assets/img/flecha-der.png" width="40px">
+            </div>
+        </div>
+    </div>
+</div>

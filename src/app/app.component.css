@@ -1,0 +1,59 @@
+.botones-flotantes {
+  position: fixed;
+  z-index: 2;
+  top: 80%;
+  left: 2%;
+}
+
+.invertido {
+  filter: invert(100%);
+}
+
+.iconos-redes {
+  width: 40px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; /* Transición suave para el efecto de hover */
+  filter: drop-shadow(
+    0 0 10px rgba(0, 0, 0, 0.8)
+  );
+}
+
+.iconos-redes:hover {
+  transform: scale(1.1); /* Ajusta la escala según lo que desees */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
