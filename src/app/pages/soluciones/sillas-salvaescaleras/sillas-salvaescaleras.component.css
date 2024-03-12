@@ -29,3 +29,24 @@
   z-index: 1;
   display: flex;
 }
+
+.silla-salvaescaleras-air-smart-curva {
+  background-size: 100% 100%; /* Cambiado de 'cover' a '100% 100%' */
+  min-height: 50vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+}
+
+.silla-salvaescaleras-air-smart-recta {
+  background-color: #f3f3f3;
+  background-size: 100% 100%; /* Cambiado de 'cover' a '100% 100%' */
+  min-height: 50vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+}

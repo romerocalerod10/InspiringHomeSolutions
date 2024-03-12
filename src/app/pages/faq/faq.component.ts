@@ -59,11 +59,6 @@ export class FAQComponent {
       question: "¿Son seguras las plataformas salvaescaleras? ¿Incorporan sistemas de seguridad?",
       answer: "Las plataformas salvaescaleras cumplen con los más altos estándares de seguridad al contar con diversos sistemas, como anti-impacto, anti-aplastamiento y paradas de emergencia. Además, están equipadas con brazos de protección y dispositivos que detienen el movimiento al detectar obstáculos.",
       open: false
-    },
-    {
-      question: "¿La instalación de un ascensor requiere algún tipo de obra en el edificio?",
-      answer: "En la mayoría de los casos, la instalación de un ascensor no demanda obras significativas, ya que aprovecha el espacio existente en la caja de escaleras. En situaciones puntuales, podría ser necesario adecuar el foso o realizar algún refuerzo estructural, pero como empresa instaladora, nos encargamos de todas las gestiones necesarias.",
-      open: false
     }
   ];
 
